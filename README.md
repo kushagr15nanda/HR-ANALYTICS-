@@ -21,10 +21,10 @@ This repository contains a Tableau dashboard that provides insights into employe
 The following KPIs are calculated and visualized in the dashboard:
 - **Employee Count**: Total number of employees in the dataset.
 - **Attrition Count**: Total number of employees who left the company.
-- **Attrition Rate Calculation**: `IF [Attrition] = 'YES' THEN 1 ELSE 0 END`
-- **Overall Attrition Rate**: `SUM ([Calculation_27021658477756416]) / SUM ([Employee Count])`
-- **Active Employees**: `SUM ([Employee Count]) - SUM ([Calculation_27021658477756416])`
-- **Average Age of Employees**: Calculated to understand the workforce age distribution.
+- **Attrition Rate Calculation**
+- **Overall Attrition Rate**
+- **Active Employees**
+- **Average Age of Employees**
 
 ## Dashboard Components
 The dashboard consists of multiple worksheets providing various perspectives on employee attrition:
